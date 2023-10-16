@@ -1,5 +1,20 @@
 # Batch analysis of cosmic rays using Drift Tubes detectors
-#### Analysis of real data collected in a particle physics detector to reconstruct the trajectory of muons from cosmic rays.
+
+Final project for the course *Management and analysis of physics dataset - module B*. 
+\
+The course focuses on:
+1. **Data Management**
+\
+Data structures; Storage Models; Reliability; Availability; Authentication and Authorization; Local and Distributed File systems; Cloud storage; Databases
+
+
+2. **Data processing**
+\
+Parallel processing; Distributed Computing Systems and the Grid paradigm; Cloud computing service models; Virtualization; Containerization; Hadoop as a paradigm for big data processing; Data processing with Spark; Data processing with Dask; Kafka as a distributed streaming platform
+
+
+
+## Analysis of real data collected in a particle physics detector to reconstruct the trajectory of muons from cosmic rays.
 &nbsp;
 A set of muon detectors have been built and installed in Legnaro INFN Laboratories and are currently used to collect signals from cosmic rays.
 The working principles of these detectors (named mini Drift Tubes or miniDTs) are based on ionization: charged particles traversing the volume of the detectors will ionize the
