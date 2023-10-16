@@ -8,9 +8,9 @@ $(v_{drift} = 53.8 \\mu m/ns)$. Close to a sensing anode wire, the intense elect
 Signals are collected on the anodic wire, then amplified, digitized, discriminated, and sent through a DAQ system where a set of FPGAs perform the Time-to-Digital Conversion
 (TDC): to each electron cloud reaching the wire a digital signal is associated corresponding to the time of collection.
 Each digitized signal is commonly referred to as an “hit”.
-
-figure
-
+<p align="center">
+<img src="https://github.com/MarijaMojsovska/MAPD-Project/blob/main/image1.png">
+</p>
 If the time of passage of the muon (usually referred to as $t_{0}$) is known, the TDC of a hit can be translated to a position inside the cell thanks to the constant $v_{drift}$, i.e.:
 <p align="center">
 $x_{hit} = (t_{hit} - t_{0})v_{drift}$
@@ -24,11 +24,15 @@ and identify the track trajectory throughout 1 or more DT chambers.
 The geometry of one single detector (a miniDT “chamber”) is composed of 64 cells arranged in 4 layers of 16 cells each. Adjacent layers are staggered by half of a cell width.
 Each cell has a transversal dimension of 42 x 13 $mm^{2}$ (width x height). The schema for one DT chamber is reported in the following figure:
 
-figure
+<p align="center">
+<img src="https://github.com/MarijaMojsovska/MAPD-Project/blob/main/image2.png">
+</p>
 
 Four DT chambers are stacked on top of each other in a “muon-telescope” configuration, where 3 chambers (0,2,3) are in the same orientation, and the fourth (1) is rotated 90
 degrees to measure in the orthogonal view.
 
 Two external detectors (plastic scintillator palettes, in blue in the figure) provide the external timing information for the particle passage, hence the $t_{0}$ information.
 
-figure
+<p align="center">
+<img src="https://github.com/MarijaMojsovska/MAPD-Project/blob/main/image3.png">
+</p>
