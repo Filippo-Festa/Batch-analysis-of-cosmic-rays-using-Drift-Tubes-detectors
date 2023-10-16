@@ -8,10 +8,13 @@ $(v_{drift} = 53.8 \\mu m/ns)$. Close to a sensing anode wire, the intense elect
 Signals are collected on the anodic wire, then amplified, digitized, discriminated, and sent through a DAQ system where a set of FPGAs perform the Time-to-Digital Conversion
 (TDC): to each electron cloud reaching the wire a digital signal is associated corresponding to the time of collection.
 Each digitized signal is commonly referred to as an “hit”.
+
 <p align="center">
 <img src="https://github.com/MarijaMojsovska/MAPD-Project/blob/main/image1.png">
 </p>
+
 If the time of passage of the muon (usually referred to as $t_{0}$) is known, the TDC of a hit can be translated to a position inside the cell thanks to the constant $v_{drift}$, i.e.:
+
 <p align="center">
 $x_{hit} = (t_{hit} - t_{0})v_{drift}$
 </p>
