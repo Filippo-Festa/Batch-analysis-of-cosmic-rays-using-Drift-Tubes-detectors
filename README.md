@@ -54,3 +54,9 @@ Two external detectors (plastic scintillator palettes, in blue in the figure) pr
 <p align="center">
 <img src="https://github.com/MarijaMojsovska/MAPD-Project/blob/main/image3.png">
 </p>
+
+## Group members
+- [Filippo Orlando](https://github.com/Filorland)
+- [Marija Mojsovska](https://github.com/MarijaMojsovska)
+- [Filippo Festa](https://github.com/Filippo-Festa)
+- [Andrea Peri](https://github.com/periandrea)
